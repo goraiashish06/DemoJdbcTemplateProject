@@ -11,7 +11,7 @@ Registration
 
 Java properties file in src/main/resources/config/flashsale.properties.
 
-h2 url => db.url. Default db name is flashsale, and this has to be created before running tests.
+h2 url => jdbc:h2:~/test, and this has to be created before running tests.
 h2 username => sa
 h2 password => 
 
@@ -44,4 +44,4 @@ A flashsale holds only 1 product
 Buyer can only register if the flashsale is not running.
 flashsale is started/stopped by the admin team with the internal apis exposed.
 Purchase limit per buyer per flashsale is 1. 
-Payment is not implemented
+Payment is not implemented.
